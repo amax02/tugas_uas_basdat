@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "969905f081709d130e1c5aa5c3f4adbb",
+    "content-hash": "25e4dad4bca2249d414205834ed4fef6",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -186,16 +186,16 @@
         },
         {
             "name": "endroid/qr-code",
-            "version": "4.8.5",
+            "version": "5.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/endroid/qr-code.git",
-                "reference": "0db25b506a8411a5e1644ebaa67123a6eb7b6a77"
+                "reference": "0efd071a3640af323e23c94122fe92cfd5199833"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/endroid/qr-code/zipball/0db25b506a8411a5e1644ebaa67123a6eb7b6a77",
-                "reference": "0db25b506a8411a5e1644ebaa67123a6eb7b6a77",
+                "url": "https://api.github.com/repos/endroid/qr-code/zipball/0efd071a3640af323e23c94122fe92cfd5199833",
+                "reference": "0efd071a3640af323e23c94122fe92cfd5199833",
                 "shasum": ""
             },
             "require": {
@@ -206,7 +206,7 @@
                 "khanamiryan/qrcode-detector-decoder": "^1.0.6"
             },
             "require-dev": {
-                "endroid/quality": "dev-master",
+                "endroid/quality": "dev-main",
                 "ext-gd": "*",
                 "khanamiryan/qrcode-detector-decoder": "^1.0.4||^2.0.2",
                 "setasign/fpdf": "^1.8.2"
@@ -220,7 +220,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.x-dev"
+                    "dev-main": "5.x-dev"
                 }
             },
             "autoload": {
@@ -249,7 +249,7 @@
             ],
             "support": {
                 "issues": "https://github.com/endroid/qr-code/issues",
-                "source": "https://github.com/endroid/qr-code/tree/4.8.5"
+                "source": "https://github.com/endroid/qr-code/tree/5.0.4"
             },
             "funding": [
                 {
@@ -257,7 +257,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-09-29T14:03:20+00:00"
+            "time": "2023-12-24T13:47:07+00:00"
         },
         {
             "name": "laminas/laminas-escaper",
@@ -2428,5 +2428,5 @@
         "php": "^7.4 || ^8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
